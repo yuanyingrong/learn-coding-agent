@@ -24,7 +24,7 @@ jobs:
 
       - name: Sync main from upstream
         run: |
-          git remote add upstream https://github.com/shuaiplus/NodeWarden.git || true
+          git remote add upstream https://github.com/sanbuphy/learn-coding-agent.git || true
           git fetch upstream
           git checkout main
           git merge upstream/main
